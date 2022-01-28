@@ -7,10 +7,10 @@ metadata:
 spec:
   serviceAccountName: flux-reconciler
   interval: 10m
-  targetNamespace: flux-system
+  targetNamespace: jsellis
   chart:
     spec:
-      chart: podinfo-jos
+      chart: podinfo
       version: 6.0.2
       sourceRef:
         kind: HelmRepository
