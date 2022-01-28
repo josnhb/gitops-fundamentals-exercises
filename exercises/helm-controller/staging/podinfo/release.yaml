@@ -10,7 +10,7 @@ spec:
   targetNamespace: flux-system
   chart:
     spec:
-      chart: podinfo
+      chart: podinfo-jos
       version: 6.0.2
       sourceRef:
         kind: HelmRepository
